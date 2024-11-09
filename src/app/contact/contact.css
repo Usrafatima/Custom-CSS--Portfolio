@@ -1,0 +1,165 @@
+.heading1 {
+    border: 4px solid black;
+    width: 12%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 2rem;
+    margin-top: 10%;
+    margin: 6% auto 0; 
+    margin-left: 42%;
+    font-family: arvo, sans-serif;
+}
+.form-group1{
+    position: relative;
+    margin-left: 37%;
+    margin-top: 7%;
+
+}
+.form-input1 {
+    width: 35%;
+    background-color: #D7D7D7;
+    height: 35px;
+    border: none; 
+    border-left: 3px solid #000; 
+    border-bottom: 3px solid #000; 
+    padding: 8px; 
+    outline: none; 
+}
+
+
+.form-input1::placeholder{ 
+    
+    color: black;
+    
+}
+.form-group2{
+    position: relative;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+.form-input2{
+    background-color: #D7D7D7;
+    width: 35%;
+    height: 35px;
+    border: none;  
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000; 
+    padding: 6px;
+    outline: none; 
+    position: relative;
+    margin-top: -26%;
+}
+.form-input2::placeholder{ 
+    
+    color: black;
+    
+}
+
+.form-group3{
+    position: relative;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+.form-input3{
+    background-color: #D7D7D7;
+    width: 35%;
+    height: 35px;
+    border: none; 
+    border-left: 3px solid #000; 
+    border-bottom: 3px solid #000; 
+    padding: 8px; 
+    outline: none; 
+}
+.form-input3::placeholder{ 
+   
+    color: black;
+    
+}
+.contact-button {
+    position: relative;
+    margin-top: 5%; 
+    border: 1px solid black;
+    border: none;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+  position: relative;
+  margin-left: 45%;
+ 
+  width: 5%;
+ 
+  
+}
+
+
+
+.line {
+    width: 2px; 
+    height: 45px; 
+    background-color: black; 
+}
+.feel-para{
+   
+    font-size: 1.3rem;
+    margin-top: 1.5%;
+    margin-left: 43%;
+    font-family: 'Arvo', sans-serif;
+    
+}
+@media (max-width: 768px) {
+    
+    .heading1 {
+        width: 35%;
+        margin: 0 auto;
+        margin-top: 30%; 
+    }
+    .form-input1, .form-input2, .form-input3 {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: -25%;
+        margin-top: 20%;
+        border-bottom: 4px solid;
+    }
+    .contact-button {
+        margin-top: 8%; 
+        width: 20%;
+        margin-left:36% ;
+        margin-top: 15%;
+    }
+    .feel-para{
+        position: relative;
+        margin-top: 10%;
+        margin-left: 28%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+    .heading1{
+        width: 20%;
+    }
+    .form-input1,.form-input2,.form-input3{
+        width: 45%;
+    }
+    .contact-button{
+        width: 15%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .form-input1,.form-input2,.form-input3{
+        width: 45%;
+    }
+    .heading1{
+        width: 15%;
+    }
+    .feel-para{
+        margin-left: 42%;
+    }
+    .contact-button{
+        width:10% ;
+    }
+}
+

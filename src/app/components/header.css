@@ -1,0 +1,23 @@
+.header {
+    background-color: #222831;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 85px;
+    height: 70px;
+    width: 100%;
+   top: 0;
+   padding: 0 100px;
+    margin: 0;
+}
+@media (max-width: 600px) {
+   .header{
+    gap:14%;
+
+    
+}
+.header ul li{
+    margin-left: 15%;
+}
+}
